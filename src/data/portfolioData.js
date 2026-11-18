@@ -1,6 +1,6 @@
 export const portfolioData = {
   personal: {
-    name: "Hamna Tariq",
+    name: "Hamna Muzaffar",
     preferredName: "Hamna",
     designation: "Software Engineering Undergraduate & Frontend Enthusiast",
     university: "National University of Sciences & Technology (NUST)",
@@ -11,15 +11,15 @@ export const portfolioData = {
     statusBadge: "Available for Summer 2025/2026 Internships",
     tagline: "Bridging the gap between creative UI design and scalable software architecture to build memorable web experiences.",
     shortBio: "Passionate university student focused on modern React ecosystems, responsive design, and intuitive user experiences. Active campus tech community mentor and hackathon builder.",
-    email: "hamna.tech@example.com",
+    email: "hamna.muzaffar@example.com",
     github: "https://github.com/hamna019",
     githubUsername: "hamna019",
-    linkedin: "https://linkedin.com/in/hamna-profile",
+    linkedin: "https://linkedin.com/in/hamna-muzaffar",
     twitter: "https://twitter.com/hamna_dev",
     location: "Islamabad, Pakistan (Open to Remote Globally)",
     profileImage: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80",
     avatarUrl: "https://avatars.githubusercontent.com/u/186943733?v=4",
-    avatarFallback: "HT",
+    avatarFallback: "HM",
   },
 
   about: {
