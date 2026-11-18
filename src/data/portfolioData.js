@@ -12,11 +12,13 @@ export const portfolioData = {
     tagline: "Bridging the gap between creative UI design and scalable software architecture to build memorable web experiences.",
     shortBio: "Passionate university student focused on modern React ecosystems, responsive design, and intuitive user experiences. Active campus tech community mentor and hackathon builder.",
     email: "hamna.tech@example.com",
-    github: "https://github.com/hamna-tariq",
-    linkedin: "https://linkedin.com/in/hamna-tariq",
+    github: "https://github.com/hamna019",
+    githubUsername: "hamna019",
+    linkedin: "https://linkedin.com/in/hamna-profile",
     twitter: "https://twitter.com/hamna_dev",
     location: "Islamabad, Pakistan (Open to Remote Globally)",
     profileImage: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80",
+    avatarUrl: "https://avatars.githubusercontent.com/u/186943733?v=4",
     avatarFallback: "HT",
   },
 
@@ -165,7 +167,7 @@ export const portfolioData = {
       description: "A comprehensive digital campus portal engineered to simplify student-lecturer workflows. Features course material indexing, assignment submission with automated deadline alerts, grade analytics, and discussion forums.",
       image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80",
       technologies: ["React", "Tailwind CSS", "Node.js", "Express", "PostgreSQL", "Socket.io"],
-      githubUrl: "https://github.com/hamna-tariq/edusphere-academic-portal",
+      githubUrl: "https://github.com/hamna019/edusphere-academic-portal",
       liveDemoUrl: "https://edusphere-portal-demo.vercel.app",
       highlights: [
         "Architected clean role-based authorization (Student, Faculty, Admin)",
@@ -182,7 +184,7 @@ export const portfolioData = {
       description: "An intuitive web dashboard that integrates with the GitHub REST & GraphQL APIs to give developers dynamic visual breakdowns of their daily commits, pull request turnover, languages breakdown, and streaks.",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80",
       technologies: ["React", "TypeScript", "Tailwind CSS", "Chart.js", "GitHub API", "Framer Motion"],
-      githubUrl: "https://github.com/hamna-tariq/devpulse-analytics",
+      githubUrl: "https://github.com/hamna019/devpulse-analytics",
       liveDemoUrl: "https://devpulse-metrics-demo.vercel.app",
       highlights: [
         "Rendered customizable interactive SVG heatmaps and bar charts",
@@ -199,7 +201,7 @@ export const portfolioData = {
       description: "Built to eliminate lengthy cafeteria queues during 15-minute lecture breaks. Students can pre-order snacks and meals, receive instant kitchen ticket alerts, and settle balances digitally.",
       image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1200&q=80",
       technologies: ["React", "Tailwind CSS", "Supabase", "Stripe API", "Zustand"],
-      githubUrl: "https://github.com/hamna-tariq/campus-bite-app",
+      githubUrl: "https://github.com/hamna019/campus-bite-app",
       liveDemoUrl: "https://campus-bite-demo.vercel.app",
       highlights: [
         "Reduced campus lunch pickup wait times by an estimated 65%",
@@ -216,7 +218,7 @@ export const portfolioData = {
       description: "An open educational platform created to assist university peers in grasping complex algorithmic flows. Features step-by-step playback, speed sliders, pseudocode highlighting, and custom array generators.",
       image: "https://images.unsplash.com/photo-1509228468518-180dd4864904?auto=format&fit=crop&w=1200&q=80",
       technologies: ["React", "Canvas API", "Tailwind CSS", "Web Workers"],
-      githubUrl: "https://github.com/hamna-tariq/algo-vision-visualizer",
+      githubUrl: "https://github.com/hamna019/algo-vision-visualizer",
       liveDemoUrl: "https://algo-vision-demo.vercel.app",
       highlights: [
         "Visualizes Dijkstra, A*, QuickSort, MergeSort, and BFS/DFS",
@@ -233,7 +235,7 @@ export const portfolioData = {
       description: "A streamlined healthcare booking web solution developed for university health centers. Facilitates confidential doctor scheduling, emergency triage alerts, and prescription history tracking.",
       image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1200&q=80",
       technologies: ["React", "Express.js", "MongoDB", "Tailwind CSS", "JWT Auth"],
-      githubUrl: "https://github.com/hamna-tariq/healthsync-portal",
+      githubUrl: "https://github.com/hamna019/healthsync-portal",
       liveDemoUrl: "https://healthsync-hub-demo.vercel.app",
       highlights: [
         "End-to-end appointment validation with automated calendar invites",
@@ -250,7 +252,7 @@ export const portfolioData = {
       description: "A student sustainability initiative tracking recycling kiosk deposits and solar generation across university academic blocks. Features gamified badges for eco-friendly campus habits.",
       image: "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=1200&q=80",
       technologies: ["React", "Tailwind CSS", "Firebase Firestore", "Chart.js"],
-      githubUrl: "https://github.com/hamna-tariq/ecotrack-campus",
+      githubUrl: "https://github.com/hamna019/ecotrack-campus",
       liveDemoUrl: "https://ecotrack-campus-demo.vercel.app",
       highlights: [
         "Gamified leaderboard celebrating top student recycling contributors",
@@ -396,7 +398,7 @@ export const portfolioData = {
   ],
 
   socialLinks: [
-    { name: "GitHub", url: "https://github.com/hamna-tariq", icon: "Github" },
+    { name: "GitHub", url: "https://github.com/hamna019", icon: "Github" },
     { name: "LinkedIn", url: "https://linkedin.com/in/hamna-tariq", icon: "Linkedin" },
     { name: "Email", url: "mailto:hamna.tech@example.com", icon: "Mail" },
     { name: "Twitter", url: "https://twitter.com/hamna_dev", icon: "Twitter" }

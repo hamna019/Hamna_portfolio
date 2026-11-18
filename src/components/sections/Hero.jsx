@@ -18,6 +18,8 @@ export const Hero = ({ onOpenCV }) => {
     if (el) el.scrollIntoView({ behavior: 'smooth' });
   };
 
+  const [useGithubAvatar, setUseGithubAvatar] = React.useState(false);
+
   return (
     <section
       id="home"
@@ -167,12 +169,22 @@ export const Hero = ({ onOpenCV }) => {
                 {/* Profile Photograph Placeholder Container */}
                 <div className="relative aspect-square w-full rounded-2xl overflow-hidden bg-gradient-to-br from-slate-200 to-slate-300 dark:from-slate-800 dark:to-slate-900 border border-slate-200 dark:border-slate-700 shadow-inner group">
                   <img
-                    src={personal.profileImage}
+                    src={useGithubAvatar ? personal.avatarUrl : personal.profileImage}
                     alt={`${personal.name} - Student Portfolio`}
                     className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
                     loading="eager"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent opacity-80" />
+
+                  {/* GitHub Avatar Toggle pill */}
+                  <button
+                    onClick={() => setUseGithubAvatar(!useGithubAvatar)}
+                    className="absolute top-3 right-3 z-10 px-2.5 py-1 rounded-full text-[10px] font-bold bg-black/60 hover:bg-brand-600 text-white backdrop-blur-md border border-white/20 transition-all flex items-center gap-1 shadow-sm"
+                    title="Toggle between Photo and GitHub Avatar"
+                  >
+                    <Github className="w-3 h-3" />
+                    <span>{useGithubAvatar ? 'View Photo' : 'GitHub Avatar'}</span>
+                  </button>
 
                   {/* Student Tag Inside Card */}
                   <div className="absolute bottom-4 left-4 right-4 text-white">
