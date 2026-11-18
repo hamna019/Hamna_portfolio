@@ -8,7 +8,7 @@ export const Footer = () => {
   };
 
   const currentYear = new Date().getFullYear();
-  const { personal } = portfolioData;
+  const { personal, education } = portfolioData;
 
   return (
     <footer className="relative bg-white dark:bg-dark-card border-t border-slate-200/80 dark:border-slate-800/80 transition-colors">
