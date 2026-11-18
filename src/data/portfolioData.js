@@ -1,3 +1,4 @@
+export const portfolioData = {
   personal: {
     name: "Hamna Muzaffar",
     preferredName: "Hamna",
